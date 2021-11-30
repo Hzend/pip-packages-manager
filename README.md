@@ -1,4 +1,11 @@
 #### usage: 
+
+- 1、install ppm-requirements.txt
 ```bash
-python3 pip-packages-manager.py -o requirements.txt
+pip install -r ppm-requirements.txt
+```
+
+- 2、
+```bash
+python3 pip-packages-manager.py >> requirements.txt
 ```
