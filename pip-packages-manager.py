@@ -7,8 +7,7 @@ import sys, getopt
 def get_file_name(argv):
 
     if argv == None:
-
-
+        return None
     try:
       opts, args = getopt.getopt(argv,"hi:o:",["ifile=","ofile="])
     except getopt.GetoptError:
