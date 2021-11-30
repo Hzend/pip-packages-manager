@@ -5,7 +5,7 @@ import json
 import sys
 
 def get_packages_info(args):
-    if args == None:
+    if args == []:
         package_json = os.popen("pipdeptree --json-tree").read()
         package_json = json.loads(package_json)
         packages_info = package_json
@@ -18,5 +18,5 @@ def get_packages_info(args):
         print('usage: python3 pip-packages-manager.py >> your_requirements.txt')
 
 if __name__ == "__main__":
-   get_packages_info(sys[1:])
+    get_packages_info(sys.argv[1:])
 
