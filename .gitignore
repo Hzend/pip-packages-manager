@@ -7,7 +7,7 @@ __pycache__/
 Foo*
 Bar*
 nohup.out
-requirements*
+#requirements*
 
 
 # C extensions
