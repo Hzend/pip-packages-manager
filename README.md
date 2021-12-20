@@ -13,5 +13,5 @@ pip install -r ppm-requirements.txt
 
 - 3、list the packages you have installed
 ```bash
-python3 pip-packages-manager.py >> requirements.txt
+python3 pip-packages-manager.py > project_requirements.txt
 ```
